@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pnpm install --frozen-lockfile",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "framework": null,
+  "functions": {
+    "apps/backend/api/*.ts": {
+      "runtime": "@vercel/node@5.3.17"
+    }
+  }
+}
