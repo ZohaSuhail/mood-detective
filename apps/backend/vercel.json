@@ -1,0 +1,8 @@
+{
+  "buildCommand": "pnpm i --frozen-lockfile",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.ts" }
+  ]
+}
+
+
