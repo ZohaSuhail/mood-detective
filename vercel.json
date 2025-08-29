@@ -6,5 +6,11 @@
     "apps/backend/api/*.ts": {
       "runtime": "@vercel/node@5.3.17"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/apps/backend/api/index.ts"
+    }
+  ]
 }
